@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#111820">
+<meta name="description" content="CK Auto Spares in Nyahururu, Kenya. Explore automotive oils, filters, transmission parts, accessories and more. Enquire directly on WhatsApp.">
+
+<title>CK Auto Spares | Quality Auto Spares in Nyahururu</title>
+
+<style>
+:root {
+  --dark: #111820;
+  --dark2: #1c2732;
+  --orange: #ff8a32;
+  --yellow: #ffc247;
+  --white: #ffffff;
+  --light: #f4f6f8;
+  --grey: #aab4bf;
+  --text: #202b36;
+  --border: #e4e8ec;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 85px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--light);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font: inherit;
+}
+
+/* HEADER */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--dark);
+  border-bottom: 1px solid #ffffff18;
+  padding: 10px 5%;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  color: white;
+}
+
+.brand img {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: contain;
+  background: white;
+}
+
+.brand-name {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.brand-location {
+  font-size: 10px;
+  color: var(--yellow);
+  letter-spacing: 1px;
+  margin-top: 4px;
+}
+
+.header-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--orange);
+  color: var(--dark);
+  font-size: 12px;
+  font-weight: 800;
+  padding: 11px 15px;
+  border-radius: 6px;
+  white-space: nowrap;
+  transition: .2s;
+}
+
+.header-btn:hover {
+  background: var(--yellow);
+  transform: translateY(-2px);
+}
+
+/* HERO */
+
+.hero {
+  background:
+    linear-gradient(110deg, #111820f5, #111820d9),
+    linear-gradient(45deg, #263746, #111820);
+  color: white;
+  padding: 65px 5%;
+  overflow: hidden;
+}
+
+.hero-inner {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.3fr .7fr;
+  align-items: center;
+  gap: 35px;
+}
+
+.hero-label {
+  display: inline-block;
+  color: var(--yellow);
+  border: 1px solid #ffc24755;
+  background: #ffc24712;
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-size: clamp(34px, 5vw, 58px);
+  line-height: 1.12;
+  margin: 20px 0 15px;
+  max-width: 650px;
+}
+
+.hero h1 span {
+  color: var(--orange);
+}
+
+.hero-description {
+  color: #c3ccd5;
+  max-width: 530px;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: var(--orange);
+  color: var(--dark);
+  padding: 14px 22px;
+  border-radius: 6px;
+  font-weight: 800;
+  font-size: 14px;
+  transition: .2s;
+}
+
+.hero-btn:hover {
+  background: var(--yellow);
+  transform: translateY(-2px);
+}
+
+.hero-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+  margin-top: 27px;
+  color: #e0e6eb;
+  font-size: 12px;
+}
+
+.hero-features span::before {
+  content: "✓";
+  color: var(--yellow);
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+.hero-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-logo img {
+  width: min(100%, 290px);
+  max-height: 260px;
+  object-fit: contain;
+  background: white;
+  padding: 14px;
+  border-radius: 18px;
+  box-shadow: 0 20px 55px #0005;
+}
+
+/* GENERAL SECTIONS */
+
+.section {
+  padding: 60px 5%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-heading {
+  margin-bottom: 28px;
+}
+
+.section-heading .eyebrow {
+  color: #e07822;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section-heading h2 {
+  color: var(--dark);
+  font-size: clamp(24px, 4vw, 34px);
+  margin: 6px 0;
+}
+
+.section-heading p {
+  color: #6e7a86;
+  font-size: 14px;
+}
+
+/* PRODUCTS */
+
+.products-section {
+  background: var(--white);
+}
+
+.category-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 38px 0 20px;
+}
+
+.category-title:first-of-type {
+  margin-top: 0;
+}
+
+.category-title .category-icon {
+  width: 43px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  background: #fff1e5;
+  color: #e07822;
+  font-size: 21px;
+}
+
+.category-title h3 {
+  color: var(--dark);
+  font-size: 19px;
+}
+
+.category-title p {
+  color: #7a8793;
+  font-size: 11px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform .25s, box-shadow .25s;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px #17212b14;
+}
+
+.product-image {
+  height: 185px;
+  background: #f0f2f4;
+  overflow: hidden;
+  position: relative;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 8px;
+  transition: transform .3s;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.04);
+}
+
+.product-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--dark);
+  color: white;
+  font-size: 9px;
+  font-weight: 800;
+  padding: 5px 9px;
+  border-radius: 4px;
+  letter-spacing: .5px;
+}
+
+.product-info {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.product-category {
+  color: #e07822;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: .7px;
+}
+
+.product-info h3 {
+  color: var(--dark);
+  font-size: 15px;
+  line-height: 1.4;
+  margin: 7px 0;
+}
+
+.product-description {
+  color: #75818d;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  flex: 1;
+}
+
+.product-price {
+  font-size: 13px;
+  font-weight: 800;
+  color: #df7520;
+  margin-bottom: 13px;
+}
+
+.enquire-btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+  background: var(--dark);
+  color: white;
+  padding: 11px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  transition: .2s;
+}
+
+.enquire-btn:hover {
+  background: #263746;
+}
+
+/* CTA */
+
+.cta-section {
+  background: var(--dark2);
+  padding: 48px 5%;
+  color: white;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: clamp(23px, 4vw, 32px);
+  margin-bottom: 9px;
+}
+
+.cta-section p {
+  color: #bdc7d1;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: var(--orange);
+  color: var(--dark);
+  padding: 13px 23px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.cta-btn:hover {
+  background: var(--yellow);
+}
+
+/* CONTACT */
+
+.contact-section {
+  background: var(--light);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 17px;
+  margin-top: 25px;
+}
+
+.contact-card {
+  background: white;
+  padding: 24px 18px;
+  border-radius: 9px;
+  border: 1px solid var(--border);
+}
+
+.contact-icon {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.contact-card h3 {
+  font-size: 14px;
+  color: var(--dark);
+  margin-bottom: 5px;
+}
+
+.contact-card p,
+.contact-card a {
+  font-size: 13px;
+  color: #687582;
+}
+
+.contact-card a:hover {
+  color: #e07822;
+}
+
+/* FOOTER */
+
+footer {
+  background: #0b1117;
+  color: #bdc7d1;
+  text-align: center;
+  padding: 22px 15px;
+  font-size: 12px;
+}
+
+footer strong {
+  color: white;
+}
+
+/* FLOATING WHATSAPP */
+
+.floating-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 18px;
+  z-index: 999;
+  width: 57px;
+  height: 57px;
+  background: #25d366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 27px;
+  box-shadow: 0 5px 20px #0004;
+  transition: .2s;
+}
+
+.floating-whatsapp:hover {
+  transform: scale(1.08);
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .hero-inner {
+    grid-template-columns: 1fr .6fr;
+  }
+
+  .hero-logo img {
+    width: 220px;
+  }
+}
+
+@media (max-width: 650px) {
+  header {
+    padding: 10px 4%;
+  }
+
+  .brand img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .brand-name {
+    font-size: 14px;
+  }
+
+  .brand-location {
+    font-size: 9px;
+  }
+
+  .header-btn {
+    padding: 10px 11px;
+    font-size: 10px;
+  }
+
+  .hero {
+    padding: 48px 5%;
+  }
+
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .hero-logo {
+    justify-content: flex-start;
+  }
+
+  .hero-logo img {
+    width: 120px;
+    max-height: 120px;
+    padding: 7px;
+    border-radius: 10px;
+  }
+
+  .hero h1 {
+    font-size: 37px;
+  }
+
+  .section {
+    padding: 43px 4%;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .product-image {
+    height: 145px;
+  }
+
+  .product-info {
+    padding: 11px;
+  }
+
+  .product-info h3 {
+    font-size: 13px;
+  }
+
+  .product-description {
+    font-size: 11px;
+  }
+
+  .product-price {
+    font-size: 12px;
+  }
+
+  .enquire-btn {
+    font-size: 10px;
+    padding: 10px 5px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-title h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .header-btn {
+    font-size: 9px;
+    padding: 9px 8px;
+  }
+
+  .brand-name {
+    font-size: 12px;
+  }
+
+  .product-image {
+    height: 125px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- STICKY HEADER -->
+
+<header>
+  <div class="header-inner">
+
+    <a href="#home" class="brand">
+      <img src="logo-1.jpg" alt="CK Auto Spares Logo">
+      <div>
+        <div class="brand-name">CK AUTO SPARES</div>
+        <div class="brand-location">NYAHURURU, KENYA</div>
+      </div>
+    </a>
+
+    <a class="header-btn"
+       href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20would%20like%20to%20make%20an%20enquiry."
+       target="_blank" rel="noopener">
+      WhatsApp Us
+    </a>
+
+  </div>
+</header>
+
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+  <div class="hero-inner">
+
+    <div>
+      <span class="hero-label">Your Auto Spares Partner</span>
+
+      <h1>
+        Quality Auto Spares
+        <span>in Nyahururu.</span>
+      </h1>
+
+      <p class="hero-description">
+        Explore our selection of automotive oils, filters,
+        transmission products and car accessories.
+        Contact CK Auto Spares directly for enquiries and assistance.
+      </p>
+
+      <a class="hero-btn"
+         href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20would%20like%20to%20enquire%20about%20your%20products."
+         target="_blank" rel="noopener">
+        Enquire on WhatsApp →
+      </a>
+
+      <div class="hero-features">
+        <span>Easy Enquiries</span>
+        <span>Product Selection</span>
+        <span>Nyahururu Based</span>
+      </div>
+    </div>
+
+    <div class="hero-logo">
+      <img src="logo-1.jpg" alt="CK Auto Spares business logo">
+    </div>
+
+  </div>
+</section>
+
+
+<!-- PRODUCT CATALOGUE -->
+
+<section class="section products-section" id="products">
+  <div class="container">
+
+    <div class="section-heading">
+      <span class="eyebrow">Browse Our Products</span>
+      <h2>Our Spare Parts Catalogue</h2>
+      <p>Explore the products below and contact us for availability and pricing.</p>
+    </div>
+
+
+    <!-- UNIVERSAL CAR PARTS -->
+
+    <div class="category-title">
+      <div class="category-icon">⚙</div>
+      <div>
+        <h3>Universal Car Parts</h3>
+        <p>Automotive oils, filters and accessories</p>
+      </div>
+    </div>
+
+    <div class="product-grid">
+
+      <!-- PRODUCT 1 -->
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-tag">AUTOMATIC</span>
+          <img src="photo-1.jpg" alt="Toyota AT Fluid T-IV" loading="lazy">
+        </div>
+
+        <div class="product-info">
+          <span class="product-category">Transmission Fluid</span>
+          <h3>Toyota AT Fluid T-IV</h3>
+          <p class="product-description">
+            Automatic transmission fluid designed for compatible Toyota automatic transmissions.
+          </p>
+          <div class="product-price">Price on Request</div>
+
+          <a class="enquire-btn"
+             href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20interested%20in%20Toyota%20AT%20Fluid%20T-IV."
+             target="_blank" rel="noopener">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </article>
+
+
+      <!-- PRODUCT 2 -->
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-tag">MANUAL</span>
+          <img src="photo-2.jpg" alt="Caltex Delo Manual SAE 80W-90" loading="lazy">
+        </div>
+
+        <div class="product-info">
+          <span class="product-category">Gear Oil</span>
+          <h3>Caltex Delo Manual</h3>
+          <p class="product-description">
+            SAE 80W-90 manual transmission lubricant for compatible applications.
+          </p>
+          <div class="product-price">Price on Request</div>
+
+          <a class="enquire-btn"
+             href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20interested%20in%20Caltex%20Delo%20Manual%20SAE%2080W-90."
+             target="_blank" rel="noopener">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </article>
+
+
+      <!-- PRODUCT 3 -->
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-tag">15W-40</span>
+          <img src="photo-3.jpg" alt="Total Rubia TIR 7400 Engine Oil" loading="lazy">
+        </div>
+
+        <div class="product-info">
+          <span class="product-category">Engine Oil</span>
+          <h3>Total Rubia TIR 7400</h3>
+          <p class="product-description">
+            15W-40 engine oil for compatible diesel engine applications.
+          </p>
+          <div class="product-price">Price on Request</div>
+
+          <a class="enquire-btn"
+             href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20interested%20in%20Total%20Rubia%20TIR%207400%20Engine%20Oil."
+             target="_blank" rel="noopener">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </article>
+
+
+      <!-- PRODUCT 4 -->
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-tag">MOTORCYCLE</span>
+          <img src="photo-4.jpg" alt="Shell Advance AX5 4T Motorcycle Engine Oil" loading="lazy">
+        </div>
+
+        <div class="product-info">
+          <span class="product-category">Motorcycle Oil</span>
+          <h3>Shell Advance AX5 4T</h3>
+          <p class="product-description">
+            20W-50 four-stroke motorcycle engine oil.
+          </p>
+          <div class="product-price">Price on Request</div>
+
+          <a class="enquire-btn"
+             href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20interested%20in%20Shell%20Advance%20AX5%204T%20Motorcycle%20Engine%20Oil."
+             target="_blank" rel="noopener">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </article>
+
+
+      <!-- PRODUCT 5 -->
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-tag">10W-40</span>
+          <img src="photo-5.jpg" alt="Shell Helix HX7 Motor Oil" loading="lazy">
+        </div>
+
+        <div class="product-info">
+          <span class="product-category">Engine Oil</span>
+          <h3>Shell Helix HX7</h3>
+          <p class="product-description">
+            10W-40 motor oil for compatible vehicle applications.
+          </p>
+          <div class="product-price">Price on Request</div>
+
+          <a class="enquire-btn"
+             href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20interested%20in%20Shell%20Helix%20HX7%20Motor%20Oil."
+             target="_blank" rel="noopener">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </article>
+
+
+      <!-- PRODUCT 6 -->
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-tag">15W-40</span>
+          <img src="photo-6.jpg" alt="Total Rubia TIR 7400 Diesel Engine Oil" loading="lazy">
+        </div>
+
+        <div class="product-info">
+          <span class="product-category">Diesel Engine Oil</span>
+          <h3>Total Rubia TIR 7400 Diesel Oil</h3>
+          <p class="product-description">
+            15W-40 diesel engine oil. Separate product image variant.
+          </p>
+          <div class="product-price">Price on Request</div>
+
+          <a class="enquire-btn"
+             href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20interested%20in%20Total%20Rubia%20TIR%207400%20Diesel%20Engine%20Oil."
+             target="_blank" rel="noopener">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </article>
+
+
+      <!-- PRODUCT 7 -->
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-tag">HEAVY DUTY</span>
+          <img src="photo-7.jpg" alt="2000AMP Booster Cables" loading="lazy">
+        </div>
+
+        <div class="product-info">
+          <span class="product-category">Car Accessories</span>
+          <h3>2000AMP Booster Cables</h3>
+          <p class="product-description">
+            Jumper cables designed to assist with vehicle battery jump-starting.
+          </p>
+          <div class="product-price">Price on Request</div>
+
+          <a class="enquire-btn"
+             href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20interested%20in%202000AMP%20Booster%20Cables."
+             target="_blank" rel="noopener">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </article>
+
+
+      <!-- PRODUCT 8 -->
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-tag">ALLOY RIM</span>
+          <img src="photo-8.jpg" alt="Black and Silver Car Alloy Wheel Rim" loading="lazy">
+        </div>
+
+        <div class="product-info">
+          <span class="product-category">Wheel Accessories</span>
+          <h3>Car Alloy Wheel Rim</h3>
+          <p class="product-description">
+            Black and silver alloy wheel rim with a machined finish.
+          </p>
+          <div class="product-price">Price on Request</div>
+
+          <a class="enquire-btn"
+             href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20interested%20in%20Car%20Alloy%20Wheel%20Rim."
+             target="_blank" rel="noopener">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </article>
+
+
+      <!-- PRODUCT 9 -->
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-tag">FILTER</span>
+          <img src="photo-9.jpg" alt="Decose Oil Filter 04152-37010" loading="lazy">
+        </div>
+
+        <div class="product-info">
+          <span class="product-category">Oil Filter</span>
+          <h3>Decose Oil Filter</h3>
+          <p class="product-description">
+            Oil filter with part number 04152-37010. Confirm compatibility before purchase.
+          </p>
+          <div class="product-price">Price on Request</div>
+
+          <a class="enquire-btn"
+             href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20interested%20in%20Decose%20Oil%20Filter%20Part%20Number%2004152-37010."
+             target="_blank" rel="noopener">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </article>
+
+
+      <!-- PRODUCT 10 -->
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-tag">HEAVY DUTY</span>
+          <img src="photo-10.jpg" alt="Heavy Duty Cylindrical Air Filter Element" loading="lazy">
+        </div>
+
+                <div class="product-info">
+       
+          <span class="product-category">Air Filter</span>
+          <h3>Heavy Duty Air Filter</h3>
+          <p class="product-description">
+            Cylindrical mesh filter element for compatible applications.
+          </p>
+          <div class="product-price">Price on Request</div>
+
+          <a class="enquire-btn"
+             href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20interested%20in%20Heavy%20Duty%20Air%20Filter."
+             target="_blank" rel="noopener">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- TOYOTA HILUX TRANSMISSION PARTS -->
+
+    <div class="category-title" style="margin-top:55px;">
+      <div class="category-icon">🚙</div>
+      <div>
+        <h3>Toyota Hilux Transmission Parts</h3>
+        <p>Automatic and manual transmission enquiries</p>
+      </div>
+    </div>
+
+    <div class="product-grid">
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-tag">AUTOMATIC</span>
+          <img src="photo-1.jpg" alt="Toyota AT Fluid T-IV" loading="lazy">
+        </div>
+
+        <div class="product-info">
+          <span class="product-category">Toyota Hilux • Automatic</span>
+          <h3>Toyota Hilux Automatic Transmission Enquiry</h3>
+          <p class="product-description">
+            Contact CK Auto Spares to confirm the correct automatic transmission product for your Hilux.
+          </p>
+          <div class="product-price">Price on Request</div>
+
+          <a class="enquire-btn"
+             href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20enquiring%20about%20Toyota%20Hilux%20Automatic%20Transmission%20Parts."
+             target="_blank" rel="noopener">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-tag">MANUAL</span>
+          <img src="photo-2.jpg" alt="Caltex Delo Manual Transmission Oil" loading="lazy">
+        </div>
+
+        <div class="product-info">
+          <span class="product-category">Toyota Hilux • Manual</span>
+          <h3>Toyota Hilux Manual Transmission Enquiry</h3>
+          <p class="product-description">
+            Contact CK Auto Spares for manual transmission parts and compatibility details.
+          </p>
+          <div class="product-price">Price on Request</div>
+
+          <a class="enquire-btn"
+             href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20enquiring%20about%20Toyota%20Hilux%20Manual%20Transmission%20Parts."
+             target="_blank" rel="noopener">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- CAN'T FIND A PART -->
+
+<section class="cta-section">
+  <div class="container">
+    <h2>Can't Find a Part?</h2>
+    <p>
+      Looking for a specific spare part? Message CK Auto Spares
+      and let us know what you need.
+    </p>
+
+    <a class="cta-btn"
+       href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20am%20looking%20for%20a%20specific%20spare%20part."
+       target="_blank" rel="noopener">
+      Message Us on WhatsApp →
+    </a>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+
+<section class="section contact-section" id="contact">
+  <div class="container">
+
+    <div class="section-heading">
+      <span class="eyebrow">Get In Touch</span>
+      <h2>Contact CK Auto Spares</h2>
+      <p>We're based in Nyahururu, Kenya. Reach out for product enquiries.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <div class="contact-icon">📍</div>
+        <h3>Our Location</h3>
+        <p>Nyahururu, Kenya</p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">💬</div>
+        <h3>WhatsApp</h3>
+        <p>
+          <a href="https://wa.me/254726891842"
+             target="_blank" rel="noopener">
+            0726 891 842
+          </a>
+        </p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">📞</div>
+        <h3>Call Us</h3>
+        <p>
+          <a href="tel:0716702922">
+            0716 702 922
+          </a>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+  <strong>CK Auto Spares</strong> — Nyahururu, Kenya
+</footer>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+
+<a class="floating-whatsapp"
+   href="https://wa.me/254726891842?text=Hello%20CK%20Auto%20Spares,%20I%20would%20like%20to%20make%20an%20enquiry."
+   target="_blank" rel="noopener"
+   aria-label="Chat with CK Auto Spares on WhatsApp">
+  ☎
+</a>
+
+</body>
+</html>
+           
